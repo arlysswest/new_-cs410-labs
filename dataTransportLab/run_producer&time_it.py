@@ -2,7 +2,7 @@
 import json, time
 from google.cloud import pubsub_v1
 import os
-
+#code errors
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] ="/Users/arlysswest/Desktop/data-engineering-spring-a049302cdbbf.json"
 
 

@@ -1,8 +1,7 @@
-#needs google cloud credentials
 from google.cloud import pubsub_v1
 import time
 import os
-
+#taking too long
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] ="/Users/arlysswest/Desktop/data-engineering-spring-a049302cdbbf.json"
 
 

@@ -1,4 +1,4 @@
-#needs google cloud credentials
+#taking too long
 from google.cloud import pubsub_v1
 import time
 import os
