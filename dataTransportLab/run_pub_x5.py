@@ -4,10 +4,9 @@ import os
 
 #code errors
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] ="/Users/arlysswest/Desktop/data-engineering-spring-a049302cdbbf.json"
-
-
-project_id = "your-project-id"
-topic_id = "my-topic"
+project_id = "data-engineering-spring"  
+topic_id = "MyTopic"
+subscription_id= "MySub"
 
 publisher = pubsub_v1.PublisherClient()
 topic_path = publisher.topic_path(project_id, topic_id)

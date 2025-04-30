@@ -2,6 +2,7 @@
 import requests
 import json
 import os
+import time
 
 vehicle_ids = [2926, 2928]  
 all_data = []
@@ -18,6 +19,7 @@ for vid in vehicle_ids:
 with open("vehicle_data.json", "w") as f:
     json.dump(all_data, f, indent=2)
 
+#print(f"{all_data}")
 print(f"Saved {len(all_data)} records to vehicle_data.json")
 
 # Set correct credentials path for GCP

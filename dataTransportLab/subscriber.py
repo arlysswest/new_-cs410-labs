@@ -4,8 +4,9 @@ import os
 
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] ="/Users/arlysswest/Desktop/data-engineering-spring-a049302cdbbf.json"
 
-project_id = "your-project-id"
-subscription_id = "your-sub-id"
+project_id = "data-engineering-spring"  
+topic_id = "MyTopic"
+subscription_id= "MySub"
 subscriber = pubsub_v1.SubscriberClient()
 subscription_path = subscriber.subscription_path(project_id, subscription_id)
 
